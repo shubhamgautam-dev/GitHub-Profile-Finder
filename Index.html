@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>GitHub Profile Finder</h1>
+        <p>Search for any GitHub User</p>
+
+        <div class="Search-Box">
+            <input 
+                type="text"
+                id="username"
+                placeholder="Enter GitHub Username"
+            >
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="profile-container"></div>
+
+        <div id="repositories-container">
+            <h2>Public Repositories</h2>
+            <div id="repositories-list"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #238636;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+
+/* Profile Card */
+
+#profile-container {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #202020;
+    border: 1px solid #333;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#profile-container img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #238636;
+    margin-bottom: 15px;
+}
+
+#profile-container h2 {
+    margin-bottom: 8px;
+    color: white;
+}
+
+#profile-container p {
+    color: #aaa;
+    margin: 12px 0;
+}
+
+#profile-container a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    background-color: #238636;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+#profile-container a:hover {
+    background-color: #2ea043;
+}
+
+
+#repositories-container {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#repositories-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.repo-card {
+    background: #202020;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 15px;
+}
+
+.repo-card h3 {
+    color: #58a6ff;
+    margin-bottom: 10px;
+}
+
+.repo-card p {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.repo-card a {
+    color: #58a6ff;
+    text-decoration: none;
+}
